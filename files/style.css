@@ -131,3 +131,8 @@ button:hover {
   justify-content: flex-start;
   gap: 1rem;
 }
+
+.news-card img {
+  width: 20%;
+  border-radius: 24px;
+}
