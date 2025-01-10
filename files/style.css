@@ -136,3 +136,24 @@ button:hover {
   width: 20%;
   border-radius: 24px;
 }
+
+/* Donate Section */
+.donate {
+  padding: 2rem;
+  text-align: center;
+}
+.donate-cards {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.donate-card {
+  padding: 1rem;
+  background-color: #e9ecef;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.donate-card:hover {
+  background-color: #dee2e6;
+}
+
