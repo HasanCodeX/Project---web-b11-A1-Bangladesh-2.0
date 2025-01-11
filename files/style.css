@@ -263,12 +263,12 @@ button:hover {
   color: #333;
 }
 
-
-
 .donate-card:hover {
   background-color: deepskyblue;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
+
+
 
 
 .donate input {
