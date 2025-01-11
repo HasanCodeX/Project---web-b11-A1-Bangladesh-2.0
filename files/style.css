@@ -262,10 +262,7 @@ button:hover {
   color: #333;
 }
 
-.donate-card:hover {
-  /* background-color: deepskyblue; 
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); */
-}
+
 #active {
   padding: 1rem;
   /* background-color: #e9ecef; */
