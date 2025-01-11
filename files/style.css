@@ -271,7 +271,14 @@ button:hover {
 
 }
 
+.donate button:hover {
+  background-color: #218838;
+}
+
+
 /* newsletter */
+
+
 .newsletter {
   background-color: rgb(198, 228, 214);
   padding: 40px 20px;
@@ -280,12 +287,10 @@ button:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-
 .newsletter form {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0px;
   margin-bottom: 20px;
 }
 
@@ -293,14 +298,30 @@ button:hover {
   padding: 10px;
   font-size: 1rem;
   border: 1px solid #ccc;
-  border-radius: 4px;
-  width: 500px;
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+  /* flex: 3; Ensures balanced proportions with the button */
   outline: none;
-  transition: 0.3s;
-
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .newsletter input[type="email"]:focus {
   border-color: #333;
-  box-shadow: 0 0 5px black(0, 123, 255, 0.5);
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.newsletter-form button {
+  cursor: pointer;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #28a745;
+
+  transition: background-color 0.3s ease;
+}
+
+.newsletter-form button:hover {
+  background-color: #218838;
 }
