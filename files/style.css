@@ -175,14 +175,11 @@ button:hover {
   border-radius: 10px;
 
 }
-
 .recent-news {
   padding: 2rem;
   background-color: #f5f5f5;
-}
-
+} 
 .news-card {
-
   border: 1px solid rgba(14, 14, 14, 0.15);
   gap: 1rem;
   box-sizing: border-box;
