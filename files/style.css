@@ -6,9 +6,10 @@
 
 * {
   margin: 0px;
-
   padding: 10px;
   box-sizing: border-box;
+
+
 }
 
 /* shared style  */
@@ -37,13 +38,16 @@ button {
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
+  font-size: 1.2rem;
   color: white;
   background-color: #28a745;
+
 }
 
 button:hover {
   background-color: #218838;
 }
+
 
 /* header  */
 
@@ -56,7 +60,30 @@ button:hover {
   align-items: center;
   border-radius: 24px;
   background: rgb(198, 228, 214);
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: auto;
+  min-height: 50vh;
 }
+
+.banner img {
+  width: 70%;
+  border-radius: 24px;
+}
+
+.banner h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.banner h5 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #333;
+}
+
 
 /* vision  */
 .vision {
@@ -123,12 +150,14 @@ button:hover {
   border-radius: 24px;
   display: flex;
 }
+
 .news-card img {
-  
+
   border-radius: 24px;
 }
+
 .news-card a {
- 
+
   text-decoration: none;
   cursor: pointer;
   border: none;
@@ -136,8 +165,9 @@ button:hover {
   padding: 10px 20px;
   color: white;
   background-color: #28a745;
-  
+
 }
+
 .meta {
   display: flex;
   flex-direction: column;
@@ -158,17 +188,20 @@ button:hover {
   padding: 2rem;
   text-align: center;
 }
+
 .donate-cards {
   display: flex;
   justify-content: center;
   gap: 1rem;
 }
+
 .donate-card {
   padding: 1rem;
   background-color: #e9ecef;
   border-radius: 5px;
   cursor: pointer;
 }
+
 .donate-card:hover {
   background-color: #dee2e6;
 }
@@ -191,7 +224,7 @@ button:hover {
   margin-bottom: 20px;
 }
 
- .newsletter input[type="email"] {
+.newsletter input[type="email"] {
   padding: 10px;
   font-size: 1rem;
   border: 1px solid #ccc;
@@ -199,11 +232,10 @@ button:hover {
   width: 500px;
   outline: none;
   transition: 0.3s;
-  
-} 
+
+}
 
 .newsletter input[type="email"]:focus {
   border-color: #333;
   box-shadow: 0 0 5px black(0, 123, 255, 0.5);
 }
-
