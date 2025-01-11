@@ -148,9 +148,10 @@ button:hover {
 
 
 /* quote */
+
 .quote {
   font-weight: normal;
-  background: url("/img/quote-bg.png") no-repeat;
+  background: url("../img/quote-bg.png") no-repeat;
   background-position: 10px 10px;
   background-size: 30px;
   padding: 20px;
