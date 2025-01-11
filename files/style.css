@@ -50,6 +50,10 @@ button:hover {
 
 /* header  */
 
+/* id  */
+
+/* class  */
+
 /* banner section style  */
 
 
@@ -78,8 +82,8 @@ button:hover {
 
 .banner h5 {
   font-size: 1.5rem;
-  font-weight: normal;
-  color: #333;
+  font-weight: Normal;
+  color: grey
 }
 
 
@@ -170,7 +174,7 @@ button:hover {
 
 .news {
   padding: 2rem;
-  
+
 
   border-radius: 10px;
 
