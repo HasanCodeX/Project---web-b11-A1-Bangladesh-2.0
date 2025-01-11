@@ -79,7 +79,7 @@ button:hover {
 .banner h5 {
   font-size: 1.5rem;
   font-weight: normal;
-  color: #333;
+  color: gray;
 }
 
 
@@ -118,21 +118,32 @@ button:hover {
 
 .card-1 button {
   border-radius: 8px;
-
   background: rgb(84, 144, 245);
+}
+
+.card-1 button:hover {
+  background: rgb(60, 120, 220);
 }
 
 .card-2 button {
   border-radius: 8px;
-
   background: rgb(9, 161, 92);
+}
+
+.card-2 button:hover {
+  background: rgb(7, 130, 75);
 }
 
 .card-3 button {
   border-radius: 8px;
-
   background: rgb(255, 194, 57);
 }
+
+.card-3 button:hover {
+  background: rgb(230, 170, 50);
+}
+
+
 
 /* quote */
 .quote {
@@ -200,6 +211,10 @@ button:hover {
   color: white;
   background-color: #28a745;
 
+}
+
+.news-card a:hover {
+  background-color: #218838;
 }
 
 .meta {
