@@ -8,14 +8,13 @@
   margin: 0px;
   padding: 10px;
   box-sizing: border-box;
-
+  font-family: "Fira Sans", sans-serif;
 
 }
 
 /* shared style  */
 
 body {
-  font-family: "Fira Sans", sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
@@ -87,7 +86,6 @@ button:hover {
 
 /* vision  */
 .vision {
-  padding: 2rem;
   background-color: #fff;
 }
 
@@ -95,6 +93,7 @@ button:hover {
   display: flex;
   justify-content: space-between;
   gap: 1rem;
+
 }
 
 .vision-card {
@@ -103,6 +102,37 @@ button:hover {
   background-color: #f9f9f9;
   border-radius: 5px;
   text-align: center;
+  border-radius: 24px;
+}
+
+.card-1 {
+  background-color: rgba(84, 144, 245, 0.2);
+}
+
+.card-2 {
+  background-color: rgb(198, 228, 214);
+}
+
+.card-3 {
+  background-color: rgb(247, 235, 207);
+}
+
+.card-1 button {
+  border-radius: 8px;
+
+  background: rgb(84, 144, 245);
+}
+
+.card-2 button {
+  border-radius: 8px;
+
+  background: rgb(9, 161, 92);
+}
+
+.card-3 button {
+  border-radius: 8px;
+
+  background: rgb(255, 194, 57);
 }
 
 /* quote */
