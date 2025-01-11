@@ -253,7 +253,7 @@ button:hover {
 
 .donate-card {
   padding: 1.5rem;
-  background-color: skyblue; 
+  /* background-color: skyblue;  */
   border-radius: 10px;
   cursor: pointer;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -263,9 +263,23 @@ button:hover {
 }
 
 .donate-card:hover {
-  background-color: deepskyblue; 
+  /* background-color: deepskyblue; 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); */
+}
+#active {
+  padding: 1rem;
+  /* background-color: #e9ecef; */
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: skyblue; 
+}
+
+#active:hover {
+  /* background-color: #dee2e6; */
+  background-color: deepskyblue;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
+
 
 .donate input {
   padding: 10px;
